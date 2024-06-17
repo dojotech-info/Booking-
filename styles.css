@@ -514,7 +514,7 @@
         
     /* Modal Styles */
     .modal {
-        display: block;
+        display: none !important;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -538,6 +538,7 @@
         transform: translateY(-50px);
         opacity: 0;
         animation: floatIn 1s forwards;
+        display:none !important;
     }
     
     .modal-content mh1 {
@@ -1024,7 +1025,7 @@ img {
     }
     
     .modal {
-        display: block;
+        display: none !important;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -1048,6 +1049,7 @@ img {
         transform: translateY(-50px);
         opacity: 0;
         animation: floatIn 1s forwards;
+        display: none !important;
     }
 
           .modal-content mh1 {
