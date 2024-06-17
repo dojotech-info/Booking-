@@ -371,7 +371,9 @@
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     }
-    
+    .small-up, .small-down{
+          display: flex;
+    }
   .grey-box {
            display: flex;
     align-items: center;
